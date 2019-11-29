@@ -1,0 +1,24 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+    width: 590px;
+    height: 590px;
+    margin: auto;
+}
+.quadrato {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    display: inline-block;
+
+
+}
+.quadrato.rosso {
+    background-color: red;
+}
+.quadrato.verde {
+    background-color: green;
+}
